@@ -1,26 +1,11 @@
 # Week-4-Shiny
-Example Shiny App: MTCARS
+Example Shiny App: shinycars
 
-This example app shows how engine displacement varies with MPG for specific car cylinders. 
-There are many ways to download and run it:
+This example app shows how engine displacement varies with MPG for specific car cylinders.
+The user can change the number of cylinders and the graph highlights the car models with those
+number of cylinders and their displacement and MPG. The graph also provides a fitted linear
+model to show how the relationship between displacement and MPG varies by cylinder count.
 
-library(shiny)
+The easiest way to run the application is to go to this URL:
 
-# Easiest way is to use runGitHub
-runGitHub("ShinyCars", "rstudio")
-
-# Run a tar or zip file directly
-runUrl("https://github.com/rstudio/ShinyCars/archive/master.tar.gz")
-runUrl("https://github.com/rstudio/ShinyCars/archive/master.zip")
-Or you can clone the git repository, then use runApp():
-
-# First clone the repository with git. If you have cloned it into
-# ~/ShinyCars, first go to that directory, then use runApp().
-setwd("~/ShinyCars")
-runApp()
-To run a Shiny app from a subdirectory in the repo or zip file, you can use the subdir argument. This repository happens to contain another copy of the app in inst/shinyapp/.
-
-runGitHub("ShinyCars", "rstudio", subdir = "inst/shinyapp/")
-
-runUrl("https://github.com/rstudio/shiny_example/archive/master.tar.gz",
-  subdir = "inst/shinyapp/")
+https://www.shinyapps.io/shinycars/
