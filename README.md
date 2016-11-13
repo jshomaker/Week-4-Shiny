@@ -8,4 +8,4 @@ model to show how the relationship between displacement and MPG varies by cylind
 
 The easiest way to run the application is to go to this URL:
 
-https://www.shinyapps.io/shinycars/
+https://jshomaker1.shinyapps.io/shinycars/
